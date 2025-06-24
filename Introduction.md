@@ -46,11 +46,11 @@ FinalProject-Devops/
 ```
 
 ## Steps
-# 1. create infrastructure (cloud formation and terraform in 2 region)
-# 2. Build and Push Docker Images to ecr registry
-# 3. Applying manifest files
-# 4. Deploy to AWS EKS
-# 5. buy domain from route 53
-# 6. Route 53 for failover routing
-# 7. cloud watch monitoring
+### 1. create infrastructure (cloud formation and terraform in 2 region)
+### 2. Build and Push Docker Images to ecr registry
+### 3. Applying manifest files
+### 4. Deploy to AWS EKS
+### 5. buy domain from route 53
+### 6. Route 53 for failover routing
+### 7. cloud watch monitoring
 
