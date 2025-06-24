@@ -44,7 +44,7 @@ FinalProject-Devops/
 * terraform infra buildspec - terraform-buildspec.yaml
 * terraform deployment buildspec - buildspec-terradeploy.yaml
 
-** steps **
+## Steps
 # 1. create infrastructure (cloud formation and terraform in 2 region)
 # 2. Build and Push Docker Images to ecr registry
 # 3. Applying manifest files
