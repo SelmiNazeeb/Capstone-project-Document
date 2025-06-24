@@ -22,3 +22,12 @@ Actions u can do  : create, store  and delete task
 
 Git repo with code of application
 https://github.com/SelmiNazeeb/FinalProject-Devops.git
+
+**files in the repo**
+* backend, frontend, database
+* cloud formation infrastrure yaml - cft.yaml
+* cloud formation deployment buildspec - buildspec.yml
+* terraform infrastructure yaml - terraform_infra/*
+* terraform infra buildspec - terraform-buildspec.yaml
+* terraform deployment buildspec - buildspec-terradeploy.yaml 
+
