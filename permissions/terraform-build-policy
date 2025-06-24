@@ -1,0 +1,103 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Effect": "Allow",
+			"Action": [
+				"ec2:*",
+				"eks:*",
+				"eks:DescribeCluster",
+				"iam:PassRole",
+				"iam:GetRole",
+				"iam:CreateRole",
+				"iam:DeleteRole",
+				"iam:AttachRolePolicy",
+				"iam:DetachRolePolicy",
+				"iam:CreatePolicy",
+				"iam:DeletePolicy",
+				"iam:GetPolicy",
+				"iam:ListPolicies",
+				"iam:TagPolicy",
+				"iam:UntagPolicy",
+				"iam:GetRolePolicy",
+				"iam:PutRolePolicy",
+				"iam:DeleteRolePolicy",
+				"iam:ListAttachedRolePolicies",
+				"iam:TagRole",
+				"iam:UntagRole",
+				"iam:ListRolePolicies",
+				"iam:GetPolicyVersion",
+				"iam:TagOpenIDConnectProvider",
+				"iam:ListInstanceProfilesForRole",
+				"iam:RemoveRoleFromInstanceProfile",
+				"iam:DeleteInstanceProfile",
+				"kms:CreateAlias",
+				"kms:DeleteAlias",
+				"kms:TagResource",
+				"kms:UntagResource",
+				"kms:CreateKey",
+				"kms:DescribeKey",
+				"kms:ScheduleKeyDeletion",
+				"kms:CancelKeyDeletion",
+				"kms:ListAliases",
+				"kms:ListAliases",
+				"logs:CreateLogGroup",
+				"logs:DeleteLogGroup",
+				"logs:PutRetentionPolicy",
+				"logs:DescribeLogGroups",
+				"logs:TagLogGroup",
+				"logs:UntagLogGroup",
+				"logs:ListTagsForResource",
+				"logs:DescribeLogGroups",
+				"rds:CreateDBSubnetGroup",
+				"rds:ListTagsForResource",
+				"rds:CreateDBInstance",
+				"rds:DeleteDBSubnetGroup",
+				"rds:ModifyDBSubnetGroup",
+				"rds:DescribeDBSubnetGroups",
+				"rds:DescribeDBInstances",
+				"rds:ModifyDBInstance",
+				"rds:ListTagsForResource",
+				"rds:AddTagsToResource",
+				"cloudformation:*",
+				"autoscaling:*",
+				"elasticloadbalancing:*",
+				"sts:AssumeRole"
+			],
+			"Resource": "*"
+		},
+		{
+			"Effect": "Allow",
+			"Action": [
+				"s3:GetObject",
+				"s3:PutObject",
+				"s3:ListBucket"
+			],
+			"Resource": [
+				"arn:aws:s3:::selmicapstones3",
+				"arn:aws:s3:::selmicapstones3/*"
+			]
+		},
+		{
+			"Effect": "Allow",
+			"Action": [
+				"dynamodb:GetItem",
+				"dynamodb:PutItem",
+				"dynamodb:DeleteItem",
+				"dynamodb:Scan",
+				"dynamodb:Query",
+				"dynamodb:UpdateItem"
+			],
+			"Resource": "arn:aws:dynamodb:us-east-1:390403857216:table/terraform-lock-table"
+		},
+		{
+			"Effect": "Allow",
+			"Action": [
+				"iam:GetOpenIDConnectProvider",
+				"iam:CreateOpenIDConnectProvider",
+				"iam:DeleteOpenIDConnectProvider"
+			],
+			"Resource": "arn:aws:iam::390403857216:oidc-provider/*"
+		}
+	]
+}
