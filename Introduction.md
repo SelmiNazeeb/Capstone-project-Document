@@ -13,10 +13,12 @@ Actions u can do  : create, store  and delete task
 
 > infrastructure created through
       *region 1 : cloud formation
-      *region 2 : Terraform
-> Deployment of application in EKS cluster
-> Database used : RDS Postgresql
-> Automation through : Code build, Code deploy, Code pipeline
-> Load balancer : Network load balancer
-> routing : Route 53 failure routing
+      *region 2 : Terraform**
+> Deployment of application in **EKS cluster**
+> Database used : **RDS Postgresql**
+> Automation through : **Code build, Code deploy, Code pipeline**
+> Load balancer : **Network load balancer**
+> routing : **Route 53 failure routing**
 
+Git repo with code of application
+https://github.com/SelmiNazeeb/FinalProject-Devops.git
