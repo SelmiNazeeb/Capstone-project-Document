@@ -43,6 +43,7 @@ FinalProject-Devops/
 * terraform infrastructure yaml - terraform_infra/*
 * terraform infra buildspec - terraform-buildspec.yaml
 * terraform deployment buildspec - buildspec-terradeploy.yaml
+```
 
 ## Steps
 # 1. create infrastructure (cloud formation and terraform in 2 region)
