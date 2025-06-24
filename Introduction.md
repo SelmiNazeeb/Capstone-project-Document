@@ -12,8 +12,8 @@ Actions u can do  : create, store  and delete task
 **Database**: Stores your tasks persistently, ensuring data integrity
 
 * infrastructure created through
-      *region 1 : cloud formation
-      *region 2 : Terraform**
+      * region 1 : cloud formation
+      * region 2 : Terraform**
 * Deployment of application in **EKS cluster**
 * Database used : **RDS Postgresql**
 * Automation through : **Code build, Code deploy, Code pipeline**
