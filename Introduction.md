@@ -11,14 +11,14 @@ Actions u can do  : create, store  and delete task
 
 **Database**: Stores your tasks persistently, ensuring data integrity
 
-> infrastructure created through
+* infrastructure created through
       *region 1 : cloud formation
       *region 2 : Terraform**
-> Deployment of application in **EKS cluster**
-> Database used : **RDS Postgresql**
-> Automation through : **Code build, Code deploy, Code pipeline**
-> Load balancer : **Network load balancer**
-> routing : **Route 53 failure routing**
+* Deployment of application in **EKS cluster**
+* Database used : **RDS Postgresql**
+* Automation through : **Code build, Code deploy, Code pipeline**
+* Load balancer : **Network load balancer**
+* routing : **Route 53 failure routing**
 
 Git repo with code of application
 https://github.com/SelmiNazeeb/FinalProject-Devops.git
