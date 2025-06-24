@@ -1,4 +1,5 @@
 **Cloud formation**
+```
 Infrastructure
 •	Cloud formation role - AdministratorAccess
 •	Pipeline role - AmazonEKSClusterPolicy, AWSCloudFormationFullAccess
@@ -8,8 +9,10 @@ Infrastructure
 Application deployment
 •	Code build role - AmazonEC2ContainerRegistryPowerUser
 •	pipeline role – Access entry in EKS cluster
+```
 
 **Terraform**
+```
 Infrastructure 
 •	Code build role - terraform/terraform-build-policy, AmazonS3FullAccess, AmazonVPCFullAccess
 •	Permission to user to access EKS cluster
@@ -18,7 +21,7 @@ Infrastructure
 Application deployment
 •	Code build role - AmazonEC2ContainerRegistryPowerUser
 •	pipeline role – Access entry in EKS cluster
-
+```
 
 
 
