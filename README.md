@@ -1,5 +1,5 @@
 # Capstone-project-Document
-Repo contains the documentation of devops aws capstone project
+This Repository contains only the documentation of devops aws capstone project
 
-Git repo with code of application and infrastructure
-https://github.com/SelmiNazeeb/FinalProject-Devops.git
+Main Git repo with code of application and infrastructure
+## https://github.com/SelmiNazeeb/FinalProject-Devops.git
